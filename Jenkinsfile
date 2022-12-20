@@ -19,7 +19,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh "./mvnw"
+        sh "./mvnw test"
       }
       post {
         success {

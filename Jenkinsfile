@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     // Adjust variables below
-    IMAGE_NAME  = "docker.io/diofathurr/java-petclinicapp"
+    IMAGE_NAME  = "docker.io/andhikan11/java-petclinicapp"
 
     // Do not edit variables below
     TAG         = sh (script: "date +%y%m%d%H%M", returnStdout: true).trim()
